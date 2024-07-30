@@ -246,3 +246,70 @@ section {
     place-items: center;
     font-size: 30px;
 }
+
+
+
+.contact {
+    background: #121137;
+}
+
+.contact h2 {
+    margin-bottom: 3rem;
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+}
+.contact span {
+    color: #12f7ff;
+}
+
+.contact form {
+    max-width: 80%;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.contact form .input-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact form .input-box input,
+.contact form textarea {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: #fff;
+    background: #121137;
+    border-radius: 10px;
+    margin: .7rem 0;
+    border: 2px solid #12f7ff;
+}
+
+.input-box input{
+    height: 1.5rem;
+}
+
+.contact form .input-box input {
+    width: 49%;
+    border-radius: 5px;
+}
+
+.contact form textarea {
+    resize: none;
+    height: 15rem;
+}
+input,textarea:focus {
+    outline: 0;
+}
+input::placeholder,textarea::placeholder {
+    color: #fff;
+}
+
+.contact form .btn {
+    width: 10%;
+    margin-top: 2rem;
+    cursor: pointer;
+    font-weight: 800;
+}
