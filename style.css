@@ -99,31 +99,34 @@ section {
 .parallax-home #text {
     position: absolute;
     font-size: 2.5rem;
-    text-shadow: 0 10px 4px rgba(0,0,0,85);
+    text-shadow: 0 10px 4px rgba(0, 0, 0, 85);
     bottom: -100%;
     left: 3%;
 }
+
 .parallax-home img#moon,
-.about img#desert-moon{
+.about img#desert-moon {
     mix-blend-mode: screen;
 }
 
-.about{
+.about {
     position: relative;
     margin-top: 9rem;
 }
-.about img{
+
+.about img {
     position: absolute;
     z-index: 1000;
     object-fit: cover;
     pointer-events: none;
 }
-.about img.about-waterfall{
+
+.about img.about-waterfall {
     position: absolute;
     top: -95px;
 }
 
-.about .info-box{
+.about .info-box {
     position: absolute;
     top: 0%;
     left: 10%;
@@ -131,15 +134,17 @@ section {
     z-index: 1003;
     background: #1d002c;
 }
-.about .info-box h2{
+
+.about .info-box h2 {
     font-size: 2.5rem;
 }
-.about .info-box p{
+
+.about .info-box p {
     margin-bottom: 1.5rem;
     margin-top: .5rem;
 }
 
-.btn{
+.btn {
     background: #12f7ff;
     color: #1d002c;
     text-decoration: none;
@@ -150,25 +155,26 @@ section {
     font-weight: 500;
 }
 
-.btn:hover{
+.btn:hover {
     box-shadow: 0 0 1rem #12f7ff;
     background: #1d002c;
     color: #12f7ff;
 }
 
-.products{
+.products {
     background: #121137;
     padding: 5rem 10px;
     padding-top: 10rem;
 }
-.products h2{
+
+.products h2 {
     font-size: 2rem;
     padding: 2rem 0 1rem 0;
     text-align: center;
     margin-bottom: 5rem;
 }
 
-.products-card{
+.products-card {
     display: flex;
     align-items: center;
     width: 90%;
@@ -176,7 +182,7 @@ section {
     gap: 1rem;
 }
 
-.card{
+.card {
     padding: 1rem;
     border: 2px solid #12f7ff;
     text-align: center;
@@ -186,11 +192,12 @@ section {
     z-index: 999;
 }
 
-.card:hover{
+.card:hover {
     cursor: pointer;
     transform: translateY(-7px);
 }
-.card img{
+
+.card img {
     width: 150px;
     height: 150px;
     justify-content: center;
@@ -199,29 +206,33 @@ section {
     filter: drop-shadow(0 0 0.5rem #1797ff);
 }
 
-.card .price-name{
+.card .price-name {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.info{
+
+.info {
     padding-bottom: .5rem;
 }
-.info p{
+
+.info p {
     padding: .5rem 0 1.5rem 0;
 }
 
-.info .btn{
+.info .btn {
     display: block;
     width: 60%;
     margin: auto;
 }
-.price-name span{
+
+.price-name span {
     color: #04cf37;
     font-size: 1.5rem;
     font-weight: 500;
 }
-#progress{
+
+#progress {
     position: fixed;
     /* background-color: #194eb9; */
     z-index: 1000;
@@ -236,7 +247,7 @@ section {
     cursor: pointer;
 }
 
-#progress-value{
+#progress-value {
     display: block;
     height: calc(100% - 12px);
     width: calc(100% - 12px);
@@ -259,6 +270,7 @@ section {
     font-size: 3rem;
     text-align: center;
 }
+
 .contact span {
     color: #12f7ff;
 }
@@ -287,7 +299,7 @@ section {
     border: 2px solid #12f7ff;
 }
 
-.input-box input{
+.input-box input {
     height: 1.5rem;
 }
 
@@ -300,10 +312,14 @@ section {
     resize: none;
     height: 15rem;
 }
-input,textarea:focus {
+
+input,
+textarea:focus {
     outline: 0;
 }
-input::placeholder,textarea::placeholder {
+
+input::placeholder,
+textarea::placeholder {
     color: #fff;
 }
 
@@ -312,4 +328,47 @@ input::placeholder,textarea::placeholder {
     margin-top: 2rem;
     cursor: pointer;
     font-weight: 800;
+}
+
+.footer {
+    height: 5rem;
+    width: 100%;
+    background-color: #1d002c;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-content {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-content p {
+    font-family: 'Courier New', Courier, monospaceFF, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-shadow: 0 0 1rem #12f7ff8a;
+}
+
+.social a img {
+    border: 2px solid #12f7ff;
+    border-radius: 50%;
+    padding: 5px;
+    margin-left: 1rem;
+    transition: all 0.3s ease;
+}
+
+.social a img:hover {
+    box-shadow: 0 0 1rem #12f7ff;
+    background: #1d002c;
+    color: #12f7ff;
+}
+
+#github {
+    width: 50px;
 }
